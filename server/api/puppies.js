@@ -6,13 +6,11 @@ module.exports = router
 
 
 
-
 router.get('/', sendPuppies)
 
 function sendPuppies(request,response){
     response.send(puppies)
 }
-
 
 
 router.post('/',function(req,res){
